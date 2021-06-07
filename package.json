@@ -1,0 +1,27 @@
+{
+  "name": "@renderinc/fetch-node-version",
+  "version": "0.0.1",
+  "readme": "README.md",
+  "description": "CLI tool to fetch a normalized Node version given a version range or string as the single command line argument.",
+  "main": "index.js",
+  "files": [
+    "**/*.js",
+    "**/*.json"
+  ],
+  "bin": {
+    "fetch-node-version": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renderinc/fetch-node-version"
+  },
+  "author": "Render Developers <support@render.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-version-alias": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=12.20.0"
+  }
+}
