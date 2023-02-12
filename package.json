@@ -19,7 +19,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "node-version-alias": "^1.0.1"
+    "node-version-alias": "^3.4.1"
   },
   "engines": {
     "node": ">=12.20.0"
